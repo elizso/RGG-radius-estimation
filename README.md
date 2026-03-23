@@ -1,6 +1,6 @@
 ## RGG Radius Estimation 
 This github repository contains an C++ implementation of estimating the radius $r_c$ in a random geometric graph (RGG).
-Specifically, this is implemented for an assignment, COMP4600 A1 Q4. The python file [`graph.py`](graph.py) is used to generate graphs from the estimated $r_c$s stored [here](output/rc_estimate_results.csv). 
+Specifically, this is implemented for an assignment, COMP4600 A1 Q4. The python file [`graph.py`](graph.py) is used to generate graphs from the estimated $r_c$ stored [here](output/rc_estimate_results.csv). 
 
 ## Running the `.cpp`
 ### MacOS
