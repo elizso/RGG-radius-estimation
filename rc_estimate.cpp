@@ -137,7 +137,7 @@ int main(){
     file << "n,probability, r\n";
     double preq = 0.5;
 
-    for (int n = 25; n <= 600; n += 25){
+    for (int n = 25; n <= 600; n += 10){
         double r_estimate = rc_estimate(n, preq, epsilon_p, epsilon_r);
         cout << "Estimated r for n = " << n << " when preq = " << preq << ": " << r_estimate << endl;
         file << n << "," << preq << "," << r_estimate << "\n";
