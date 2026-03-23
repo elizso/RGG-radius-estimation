@@ -26,7 +26,7 @@ rc_estimate.exe
 ### Linux 
 Compile using 
 ```
-g++ -std=c++17 -O2 -o rc_estimate rc_estimate.cpp
+g++ -std=c++17 -O3 -march=native -o rc_estimate rc_estimate.cpp
 ```
 Then run
 ```
